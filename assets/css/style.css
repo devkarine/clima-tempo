@@ -14,6 +14,8 @@
     font-size: 62.5%;
     font-family: 'Lato', sans-serif;
     --cor-background-section: #6D67D0;
+    --cor-title: #DAD8F7;
+    --cor-span: #C2BFF4;
 }
 
 body {

@@ -11,4 +11,12 @@
     .week-weather {
         grid-column: 2/4;
     }
+
+    .day {
+        flex: 1;
+    }
+
+    h4.title {
+        font-size: 1.4rem;
+    }
 }

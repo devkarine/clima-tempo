@@ -1,3 +1,33 @@
 .week-weather {
-    border: solid 0.1rem black; /*apenas para visualizar a section - depois apagar*/
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.day {
+    flex: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 1.6rem;
+}
+
+h4.title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor-title);
+}
+
+.day p {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--cor-title);
+}
+
+.day span {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--cor-span);
 }

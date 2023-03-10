@@ -8,15 +8,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Clima</title>
-    <link rel="stylesheet" href="./assets/css/stlye.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/index.js" defer></script>
 </head>
 <body>
     <main class="container">
         <section class="temperature-now"></section>
         <section class="air-quality"></section>
-        <section class="sun-time"></section>
-        <section class="week-weather"></section>
+        <section class="sun-time">
+            <h2 class="title"><img src="./assets/img/sun-time.svg" alt="icone do sol">Horário do Sol</h2>
+            <div class="sun-chart-wrapper">
+                <div class="sun-chart">
+                    <div class="chart">
+                        <img src="./assets/img/sun-chart.svg" alt="icone do gráfico do sol">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="week-weather">
+            <div class="day">
+                <h4 class="title">Amanhã</h4>
+                <img src="./assets/img/weather-clouds.svg" alt="">
+                <p>21° <span>16°</span></p>
+            </div>
+            <div class="day">
+                <h4 class="title">Sexta-Feira</h4>
+                <img src="./assets/img/weather-sun.svg" alt="">
+                <p>28° <span>20°</span></p>
+            </div>
+            <div class="day">
+                <h4 class="title">Sábado</h4>
+                <img src="./assets/img/weather-rain.svg" alt="">
+                <p>25° <span>21°</span></p>
+            </div>
+            <div class="day">
+                <h4 class="title">Domingo</h4>
+                <img src="./assets/img/weather-thunder.svg" alt="">
+                <p>20° <span>14°</span></p>
+            </div>
+            <div class="day">
+                <h4 class="title">Segunda-Feira</h4>
+                <img src="./assets/img/weather-cloudy.svg" alt="">
+                <p>24° <span>18°</span></p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
