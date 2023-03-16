@@ -32,9 +32,8 @@
 .location #loc {
   background-color: var(--cor-bg-stats);
   border-radius: 0.6rem;
-  height: 2rem;
+  height: 1.5rem;
   border: 0.1rem solid var(--size-info);
-  
 }
 
 .location #loc::placeholder {
@@ -56,16 +55,10 @@
   justify-content: center;
   cursor: pointer;
   transition: 0.2s ease-in;
-  border: 0.1rem solid var(--size-air);
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  box-shadow: 0.1rem 0.2rem 0.5rem rgb(71, 6, 156);
 }
 
 .location #btn-loc:active {
   color: var(--size-air);
-  box-shadow: 0.08rem 0.08rem 1rem var(--size-air);
 }
 
 .location #btn-loc:focus-visible {
