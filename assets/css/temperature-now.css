@@ -1,3 +1,92 @@
 .temperature-now {
-    border: solid 0.1rem black; /*apenas para visualizar a section - depois apagar*/
+  background: url(../img/bg-temp-now.jpeg);
+  position: relative;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+}
+
+.temperature-now::before {
+  content: "";
+  width: 17.6rem;
+  height: 17.6rem;
+  background: url(../img/clouds.svg) no-repeat;
+  position: absolute;
+  top: -5.6rem;
+  left: -5.6rem;
+}
+
+.location {
+  justify-self: end;
+  padding: 3.2rem 3.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.location strong {
+  font-size: 1.4rem;
+  color: var(--cor-span);
+}
+
+.temp {
+  margin: 6rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.temp .number {
+  text-align: center;
+  font-size: 8.8rem;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.temp .number .maxmin {
+  font-size: 2rem;
+}
+
+.temp .number .maxmin span {
+  color: var(--cor-span);
+}
+
+.celsius {
+  font-size: 2.4rem;
+  color: var(--cor-title);
+  margin-top: 1.5rem;
+}
+
+.statistics {
+  padding: 1.2rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.stats {
+  flex: 1;
+  padding: 1.2rem 1.6rem;
+  background: var(--cor-bg-stats);
+  border-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.stats .info {
+  color: var(--size-info);
+}
+
+.stats .info h5 span,
+.stats .info p {
+  font-size: 1.2rem;
+}
+
+.stats .info h5 {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
 }

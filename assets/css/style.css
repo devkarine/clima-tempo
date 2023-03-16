@@ -10,17 +10,22 @@
     box-sizing: border-box;
 }
 
-:root {
+html{
     font-size: 62.5%;
     font-family: 'Lato', sans-serif;
+}
+
+:root {
     --cor-background-section: #6D67D0;
     --cor-title: #DAD8F7;
     --cor-span: #C2BFF4;
+    --light: white;
+    --cor-bg-stats: #6660C899;
+    --size-info: #e7e6fb;
+    --size-air: #87ebcd;
+
 }
 
-body {
-    font-size: 1.6rem;
-}
 
 .container {
     background: url(../img/bg.jpeg) no-repeat center/cover;

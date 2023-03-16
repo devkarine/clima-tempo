@@ -1,3 +1,48 @@
 .air-quality {
-    border: solid 0.1rem black; /*apenas para visualizar a section - depois apagar*/
-}
+    font-weight: 700;
+    text-align: center;
+    display: grid;
+  }
+  
+  h2.title {
+    font-size: 1.6rem;
+    color: var(--cor-title);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .air-quality .good {
+    margin-top: 3.2rem;
+    font-size: 1.8rem;
+    color: var(--size-air);
+  }
+  
+  .air-quality > .number {
+    margin-top: 0.4rem;
+    font-size: 4rem;
+    color: var(--size-info);
+  }
+  
+  .air-quality .info {
+    display: flex;
+    align-items: center;
+    margin-top: 3.2rem;
+    padding: 0 1.6rem 1.6rem;
+  }
+  
+  .air-quality .info .number {
+    flex: 1;
+  }
+  
+  .air-quality .info p {
+    color: var(--size-air);
+    font-size: 1.4rem;
+  }
+  
+  .air-quality .info small {
+    font-size: 1.2rem;
+    color: var(--size-info);
+  }
