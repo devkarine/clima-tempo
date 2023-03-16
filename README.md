@@ -9,6 +9,7 @@ Projeto realizado com o objetivo de reproduzir uma página de previsão do tempo
 - Marcação semântica HTML5
 - Propriedades personalizadas de CSS3
 - Flexbox
+- Grid
 - Design responsivo
 - JavaScript
 - Consumo de api
