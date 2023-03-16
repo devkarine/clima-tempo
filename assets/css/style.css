@@ -15,6 +15,11 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+input{
+    border: none;
+    outline: none;
+}
+
 :root {
     --cor-background-section: #6D67D0;
     --cor-title: #DAD8F7;

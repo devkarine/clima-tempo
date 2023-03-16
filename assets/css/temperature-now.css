@@ -26,6 +26,50 @@
 .location strong {
   font-size: 1.4rem;
   color: var(--cor-span);
+  padding-right: 0.7rem;
+}
+
+.location #loc {
+  background-color: var(--cor-bg-stats);
+  border-radius: 0.6rem;
+  height: 2rem;
+  border: 0.1rem solid var(--size-info);
+  
+}
+
+.location #loc::placeholder {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--cor-title);
+}
+
+.location #loc:focus {
+  border: 0.1rem solid var(--size-info);
+  box-shadow: 0.08rem 0.08rem 1rem var(--size-air);
+  color: var(--cor-title);
+  text-align: center;
+}
+
+.location #btn-loc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  border: 0.1rem solid var(--size-air);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem rgb(71, 6, 156);
+}
+
+.location #btn-loc:active {
+  color: var(--size-air);
+  box-shadow: 0.08rem 0.08rem 1rem var(--size-air);
+}
+
+.location #btn-loc:focus-visible {
+  color: var(--cor-span);
 }
 
 .temp {
