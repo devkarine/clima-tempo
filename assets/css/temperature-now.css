@@ -2,6 +2,7 @@
   background: url(../img/bg-temp-now.jpeg);
   position: relative;
   display: grid;
+  place-content: center;
   grid-template-rows: max-content 1fr max-content;
 }
 
