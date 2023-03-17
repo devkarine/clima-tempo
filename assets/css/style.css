@@ -28,16 +28,15 @@ input{
     --cor-bg-stats: #6660C899;
     --size-info: #e7e6fb;
     --size-air: #87ebcd;
-
 }
 
 
 .container {
-    background: url(../img/bg.jpeg) no-repeat center/cover;
-    height: 100vh;
+    background: url(../img/bg.jpeg) repeat center/cover;
     display: grid;
     place-content: center;
     gap: 2.4rem;
+
 }
 
 section {
