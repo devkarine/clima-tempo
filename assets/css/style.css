@@ -5,22 +5,23 @@
 @import url(./week-weather.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
-    font-family: 'Lato', sans-serif;
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
 }
 
-input{
-    border: none;
-    outline: none;
+input {
+  border: none;
+  outline: none;
 }
 
 :root {
+<<<<<<< HEAD
     --cor-background-section: #6D67D0;
     --cor-title: #DAD8F7;
     --cor-span: #C2BFF4;
@@ -28,19 +29,36 @@ input{
     --cor-bg-stats: #6660C899;
     --size-info: #e7e6fb;
     --size-air: #87ebcd;
+=======
+  --cor-background-section: #6d67d0;
+  --cor-title: #dad8f7;
+  --cor-span: #c2bff4;
+  --light: white;
+  --cor-bg-stats: #6660c899;
+  --size-info: #e7e6fb;
+  --size-air: #87ebcd;
+>>>>>>> 160cc942506b2898863fac95a52aae671c4ae485
 }
 
-
 .container {
+<<<<<<< HEAD
     background: url(../img/bg.jpeg) repeat center/cover;
     display: grid;
     place-content: center;
     gap: 2.4rem;
 
+=======
+  background: url(../img/bg.jpeg) no-repeat center/cover;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 2.4rem;
+  padding: 7rem 0;
+>>>>>>> 160cc942506b2898863fac95a52aae671c4ae485
 }
 
 section {
-    background: var(--cor-background-section);
-    backdrop-filter: blur(1rem);        
-    border-radius: 1rem;
+  background: var(--cor-background-section);
+  backdrop-filter: blur(1rem);
+  border-radius: 1rem;
 }

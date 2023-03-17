@@ -1,30 +1,30 @@
 .sun-time {
-    border: solid 0.1rem black; /*apenas para visualizar a section - depois apagar*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border: solid 0.1rem black; /*apenas para visualizar a section - depois apagar*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2.title {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    color: var(--cor-title);
-    font-weight: 700;
-    font-size: 1.6rem;
-    position: relative;
-    top: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--cor-title);
+  font-weight: 700;
+  font-size: 1.6rem;
+  position: relative;
+  top: 3.2rem;
 }
 
 .sun-chart-wrapper {
-    margin-top: 3.2rem;
-    height: 11rem;
-    position: relative;
+  margin-top: 3.2rem;
+  height: 11rem;
+  position: relative;
 }
 
 .sun-chart {
-    position: relative;
-    top: auto;
-    padding-top: 2.4rem;
-    bottom: 1.6rem;
+  position: relative;
+  top: auto;
+  padding-top: 2.4rem;
+  bottom: 1.6rem;
 }

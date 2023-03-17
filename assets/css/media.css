@@ -93,25 +93,32 @@
     }
 }
 @media (min-width: 1200px) {
+<<<<<<< HEAD
     .container {
         grid-template-columns: 48rem 27.7rem 27.7rem;
         grid-template-rows: 24.4rem 21.2rem;
         height: 100vh;
     }
+=======
+  .container {
+    grid-template-columns: 48rem 27.7rem 27.7rem;
+    grid-template-rows: 24.4rem 21.2rem;
+  }
+>>>>>>> 160cc942506b2898863fac95a52aae671c4ae485
 
-    .temperature-now {
-        grid-row: 1/3;
-    }
+  .temperature-now {
+    grid-row: 1/3;
+  }
 
-    .week-weather {
-        grid-column: 2/4;
-    }
+  .week-weather {
+    grid-column: 2/4;
+  }
 
-    .day {
-        flex: 1;
-    }
+  .day {
+    flex: 1;
+  }
 
-    h4.title {
-        font-size: 1.4rem;
-    }
+  h4.title {
+    font-size: 1.4rem;
+  }
 }
