@@ -39,7 +39,6 @@
 
     .sun-time .sun-chart{
         padding-top: 0rem ;
-
     }
 }
 
@@ -93,18 +92,11 @@
     }
 }
 @media (min-width: 1200px) {
-<<<<<<< HEAD
-    .container {
-        grid-template-columns: 48rem 27.7rem 27.7rem;
-        grid-template-rows: 24.4rem 21.2rem;
-        height: 100vh;
-    }
-=======
   .container {
     grid-template-columns: 48rem 27.7rem 27.7rem;
     grid-template-rows: 24.4rem 21.2rem;
+
   }
->>>>>>> 160cc942506b2898863fac95a52aae671c4ae485
 
   .temperature-now {
     grid-row: 1/3;
