@@ -11,9 +11,14 @@
         padding-bottom: 2rem;
     }
  
-    .location #loc{
-        visibility: hidden;
+    section.temperature-now .location {
+        flex-direction: column;
+        padding: 3.2rem 3.2rem 0
+    }
+
+    .temperature-now .location #loc{
         max-width: 50%;
+        visibility: hidden;
         margin-right: 1rem;
     }
     
