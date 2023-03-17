@@ -81,12 +81,12 @@
         grid-template-columns: 45em;
     }
 
-    .location #loc{
+    .temperature-now .location #loc{
+        max-width: 50%;
         visibility: hidden;
-        width: 8em;
-        margin-right: 1em;
+        margin-right: 1rem;
     }
-
+ 
     .week-weather{
         margin-bottom:2rem;
     }
