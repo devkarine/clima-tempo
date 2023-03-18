@@ -54,8 +54,10 @@
     }
 
     section.week-weather{
-        padding: 1rem;
-        display: block;
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         margin-bottom:2rem;
     }
     
@@ -100,6 +102,10 @@
         margin-bottom: 2rem;
     }
 
+    #day-mobile {
+        display: none;
+      }
+
 }
 
 @media (min-width: 1111px) {
@@ -125,6 +131,10 @@
 
   .day {
     flex: 1;
+  }
+
+  #day-mobile {
+    display: none;
   }
 
   h4.title {
