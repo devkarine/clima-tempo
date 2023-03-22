@@ -38,6 +38,23 @@ searchBtn.addEventListener("click", (e)=>{
 
 })
 
+searchInput.addEventListener("keyup", (e) =>{
+  if (e.code === "Enter"){
+    const city = e.target.value;
+
+    showWeatherData(city);
+  }
+})
+
+searchInput.addEventListener("keypress", function(e){
+  const keyCode = (e.keyCode ? e.keyCode : e.wich);
+
+  if(keyCode >47 && keyCode <58){
+    e.preventDefault();
+  }
+
+})
+
 
 function showInput() {
   if (window.innerWidth < 1100){
