@@ -21,6 +21,9 @@
   padding: 3.2rem 3.2rem 0 10rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-flow: column wrap;
   gap: 0.4rem;
 }
 
@@ -30,10 +33,11 @@
 }
 
 .location #loc {
+  display: inline-flex;
   background-color: var(--cor-bg-stats);
   border-radius: 0.6rem;
   height: 2rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   border: 0.1rem solid var(--size-info);
 }
 

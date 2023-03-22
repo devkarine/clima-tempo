@@ -22,12 +22,12 @@ const getWeatherData = async(city)=> {
 const showWeatherData = async (city) => {
   const data = await getWeatherData(city);
 
-  cityElement.innerText = data.name;
+  cityElement.innerText = `${data.name}, ${data.sys.country}`
   tempElement.innerText = parseInt(data.main.temp); 
-  maxElement.innerText = parseInt(data.main.temp_max) + "°C";
-  minElement.innerText = parseInt(data.main.temp_min) + "°C";
-  windElement.innerText = parseInt(data.wind.speed) + "km/h";
-  humidityElement.innerText = parseInt(data.main.humidity) + "%";
+  maxElement.innerText = `${parseInt(data.main.temp_max)} °`;
+  minElement.innerText = `${parseInt(data.main.temp_min)} °`;
+  windElement.innerText = `${parseInt(data.wind.speed)}km/h`;
+  humidityElement.innerText = `${parseInt(data.main.humidity)}%`;
 
 } 
 
