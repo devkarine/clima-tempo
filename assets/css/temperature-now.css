@@ -28,7 +28,7 @@
 }
 
 .location strong {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: var(--cor-span);
 }
 
@@ -39,6 +39,8 @@
   height: 2rem;
   padding: 1.5rem 1rem;
   border: 0.1rem solid var(--size-info);
+  color: var(--cor-title);
+  text-align: center;
 }
 
 .location #loc::placeholder {
