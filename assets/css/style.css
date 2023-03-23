@@ -3,6 +3,7 @@
 @import url(./sun-time.css);
 @import url(./temperature-now.css);
 @import url(./week-weather.css);
+@import url(./search.css);
 
 * {
   margin: 0;

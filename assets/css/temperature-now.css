@@ -32,7 +32,7 @@
   color: var(--cor-span);
 }
 
-.location #loc {
+/* .location #loc {
   display: inline-flex;
   background-color: var(--cor-bg-stats);
   border-radius: 0.6rem;
@@ -71,7 +71,7 @@
 
 .location #btn-loc:focus-visible {
   color: var(--cor-span);
-}
+} */
 
 .temp {
   margin: 6rem;

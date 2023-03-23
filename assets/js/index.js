@@ -21,22 +21,22 @@ const getWeatherData = async(city)=> {
 }
 
 //corrigir essa função
-function searchResults(city) {
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`)
+// function searchResults(city) {
+//   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`)
   
-      .then(response => {
-          if (!response.ok) {
-              throw new Error(`http error: status ${response.status}`)
-          }
-          return response.json();
-      })
-      .catch(error => {
-        errorElement.innerText = error.message
-      })
-      .then(response => {
-          displayResults(response)
-      });
-}
+//       .then(response => {
+//           if (!response.ok) {
+//               throw new Error(`http error: status ${response.status}`)
+//           }
+//           return response.json();
+//       })
+//       .catch(error => {
+//         errorElement.innerText = error.message
+//       })
+//       .then(response => {
+//           displayResults(response)
+//       });
+// }
 
 const showWeatherData = async (city) => {
   const data = await getWeatherData(city);
@@ -76,19 +76,19 @@ searchInput.addEventListener("keypress", function(e){
 })
 
 
-function showInput() {
-  if (window.innerWidth < 1100){
-    const input = document.querySelector("#loc");
-    input.style.visibility = "visible";
-  }
-}
+// function showInput() {
+//   if (window.innerWidth < 1100){
+//     const input = document.querySelector("#loc");
+//     input.style.visibility = "visible";
+//   }
+// }
 
-  function hideInput() {
-    if (window.innerWidth < 1100 ){
-    const input = document.querySelector("#loc");
-    input.style.visibility = "hidden";
-    }
-  }
+//   function hideInput() {
+//     if (window.innerWidth < 1100 ){
+//     const input = document.querySelector("#loc");
+//     input.style.visibility = "hidden";
+//     }
+//   }
 
 
  

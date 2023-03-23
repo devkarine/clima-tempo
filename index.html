@@ -11,8 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <title>Página de Clima</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -25,20 +25,30 @@
           <img src="./assets/img/pin.svg" alt="icone de localizacao" />
           <strong id="loc-atual">Rio do Sul, SC</strong>
           <small #error></small>
-          <input
+
+          <form class="search">
+            <input type="text" name= "localizacao" placeholder="Adicionar localização" class="search__input" id="loc"/>
+            <button type="button" id="search__button" id="btn-loc" >
+              <i class="ri-search-2-line"></i>
+            </button>
+          </form>
+          <!-- <input
             type="text"
             name="localizacao"
             placeholder="Adicionar nova localização"
             id="loc"
           />
           <label type="button" value="Pesquisar" id="btn-loc"
-            ><i class="fas fa-search"
-            onclick="showInput()"
-            ondblclick="hideInput()"></i
-          ></label>
+            ><i
+              class="fas fa-search"
+              onclick="showInput()"
+              ondblclick="hideInput()"
+            ></i
+          ></label> -->
+
         </div>
         <div class="temp">
-          <div class="number" >
+          <div class="number">
             <span id="temp">18°</span>
             <div class="maxmin">
               <span id="max">12°</span>
@@ -119,7 +129,10 @@
         <div class="sun-chart-wrapper">
           <div class="sun-chart">
             <div class="chart">
-              <img src="./assets/img/sun-chart.svg" alt="icone do gráfico do sol"/>
+              <img
+                src="./assets/img/sun-chart.svg"
+                alt="icone do gráfico do sol"
+              />
             </div>
             <time class="now">16:01</time>
           </div>
@@ -129,7 +142,6 @@
           <time class="sunrise">06:00</time>
           <time class="sunset">18:52</time>
         </div>
-
       </section>
       <section class="week-weather">
         <div class="day">
