@@ -9,6 +9,7 @@ const maxElement = document.querySelector('#max');
 const minElement = document.querySelector('#min');
 const windElement = document.querySelector('#wind');
 const humidityElement = document.querySelector('#humidity');
+const errorElement = document.querySelector('#error');
 
 const getWeatherData = async(city)=> {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
@@ -17,6 +18,24 @@ const getWeatherData = async(city)=> {
   const data = await response.json();
   console.log(data)
   return data;
+}
+
+//corrigir essa função
+function searchResults(city) {
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`)
+  
+      .then(response => {
+          if (!response.ok) {
+              throw new Error(`http error: status ${response.status}`)
+          }
+          return response.json();
+      })
+      .catch(error => {
+        errorElement.innerText = error.message
+      })
+      .then(response => {
+          displayResults(response)
+      });
 }
 
 const showWeatherData = async (city) => {
@@ -35,6 +54,7 @@ searchBtn.addEventListener("click", (e)=>{
       e.preventDefault();
       const city = searchInput.value;
       showWeatherData(city);
+      console.log(searchInput)
 
 })
 
@@ -69,4 +89,7 @@ function showInput() {
     input.style.visibility = "hidden";
     }
   }
+
+
+ 
 
