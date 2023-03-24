@@ -18,9 +18,11 @@ html {
 
 
 
-input {
+input, button {
   border: none;
   outline: none;
+  background: transparent;
+	color: inherit;
 }
 
 :root {
