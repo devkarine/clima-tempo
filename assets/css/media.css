@@ -12,28 +12,21 @@
     }
 
     section.temperature-now:before{
-        top: -9rem;
+        background-size: 100% auto;
+        width: 40%;
+        height: 40%;
+        left: -10%;
     }
  
     section.temperature-now .location {
         flex-direction: column;
         padding: 3.2rem 3.2rem 0
     }
-
-    /* .temperature-now .location #loc{
-        max-width: 50%;
-        visibility: hidden;
-        margin-right: 1rem;
-    } */
     
     .location #loc::placeholder{
         margin-left: 1rem;
         visibility: hidden;
     }
-
-    /* .location #loc:valid{
-        margin-left: 1rem;
-    } */
 
     .temperature-now .temp .number{
         font-size: 6rem;
@@ -86,12 +79,6 @@
     .container{
         grid-template-columns: 45em;
     }
-
-    /* .temperature-now .location #loc{
-        max-width: 50%;
-        visibility: hidden;
-        margin-right: 1rem;
-    } */
  
     .week-weather{
         margin-bottom:2rem;
