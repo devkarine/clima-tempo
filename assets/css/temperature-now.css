@@ -32,47 +32,6 @@
   color: var(--cor-span);
 }
 
-/* .location #loc {
-  display: inline-flex;
-  background-color: var(--cor-bg-stats);
-  border-radius: 0.6rem;
-  height: 2rem;
-  padding: 1.5rem 1rem;
-  border: 0.1rem solid var(--size-info);
-  color: var(--cor-title);
-  text-align: center;
-}
-
-.location #loc::placeholder {
-  font-size: 1rem;
-  padding: 1rem;
-  text-align: center;
-  color: var(--cor-title);
-}
-
-.location #loc:focus {
-  border: 0.1rem solid var(--size-info);
-  box-shadow: 0.08rem 0.08rem 1rem var(--size-air);
-  color: var(--cor-title);
-  text-align: center;
-}
-
-.location #btn-loc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: 0.2s ease-in;
-}
-
-.location #btn-loc:active {
-  color: var(--size-air);
-}
-
-.location #btn-loc:focus-visible {
-  color: var(--cor-span);
-} */
-
 .temp {
   margin: 6rem;
   font-weight: 700;

@@ -13,15 +13,30 @@ Projeto realizado com o objetivo de reproduzir uma página de previsão do tempo
 - Design responsivo
 - JavaScript
 - Consumo de api
+- Validação
+
+## ✍️ Consumo da api
+
+- Buscar a cidade
+- Temperaturas atual, máxima e mínima
+- Velocidade do vento
+- Porcentagem de umidade
+- Horário do sol
 
 ## 💡 Inspiração Figma
 
-> Figma: <a href="https://www.figma.com/file/6YZZOMBSEQzvvY2QaZrJNl/%23boraCodar---Desafio-10-(Community)?node-id=0-1&t=f4ystAKhdMxcKorz-0">Desafio #boraCodar Previsão do Tempo  
-  
-## Acesse nossa página on-line    
-  
+> Figma: <a href="https://www.figma.com/file/6YZZOMBSEQzvvY2QaZrJNl/%23boraCodar---Desafio-10-(Community)?node-id=0-1&t=f4ystAKhdMxcKorz-0">Desafio #boraCodar Previsão do Tempo
+
+## 🖱️ A página
+
+<img src="assets/img/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">
+
+## Acesse nossa página on-line
+
 > Deploy: <a href="https://devkarine.github.io/clima-tempo/" target= "_blank">Clima Tempo</a>
+
 ## 👩‍💻 Dev's
+
 <table align="center">
   <tr>
     <td align="center">
@@ -52,4 +67,3 @@ Projeto realizado com o objetivo de reproduzir uma página de previsão do tempo
 
   </tr>
 </table>
-
