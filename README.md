@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="./assets/CSS/readme.css">
+
+
 # 🖥️ Projeto Clima Tempo
 
 ## ⌨ Descrição
@@ -41,16 +44,16 @@ Projeto realizado com o objetivo de reproduzir uma página de previsão do tempo
   <tr>
     <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/u/114251625?v=4" width="120px;" alt="Foto no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/114251625?v=4" width="120px;" alt="Foto no GitHub" class="profile"/><br>
           <b> Karine Pereira </b><br>
-            <a href="https://www.linkedin.com/in/devkarine/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/ height="20"></a>
+            <a href="https://www.linkedin.com/in/devkarine/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
             <a href="https://github.com/devkarine" alt="Linkedin"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
 
   <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/u/110130663?v=4https://avatars.githubusercontent.com/u/110130663?v=4" width="120px;" alt="Foto no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/110130663?v=4https://avatars.githubusercontent.com/u/110130663?v=4" width="120px;" alt="Foto no GitHub" class="profile" /><br>
           <b> Esther Vianna </b><br>
             <a href="https://www.linkedin.com/in/esthervianna/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
             <a href="https://github.com/EstherVianna" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
@@ -58,7 +61,7 @@ Projeto realizado com o objetivo de reproduzir uma página de previsão do tempo
     </td>
   <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/u/75569069?v=4" width="120px;" alt="Foto no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/75569069?v=4" width="120px;" alt="Foto no GitHub" class="profile" /><br>
           <b> Pablo Damato </b><br>
             <a href="https://www.linkedin.com/in/pablo-damato-gomes/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
             <a href="https://github.com/PabloDamato" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
