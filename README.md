@@ -1,6 +1,3 @@
-<link rel="stylesheet" type="text/css" href="./assets/css/readme.css">
-
-
 # 🖥️ Projeto Clima Tempo
 
 ## ⌨ Descrição
