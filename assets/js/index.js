@@ -1,4 +1,5 @@
-const apiKey = "de5ccbfb425fd32a4038020ec3d384c9";
+import config from './config.js';
+const apiKey = (config.API_KEY);
 
 const form = document.querySelector("#my-form");
 const searchInput = document.querySelector("#loc");
