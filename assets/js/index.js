@@ -27,6 +27,32 @@ const getWeatherData = async (city) => {
   return data;
 };
 
+//acessa a localização
+const getWeatherDataByLocation = async (latitude, longitude) => {
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}&lang=pt_br`;
+
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
+  return data;
+};
+
+//atualiza os dados na tela
+navigator.geolocation.getCurrentPosition((position) => {
+  const latitude = position.coords.latitude;
+  const longitude = position.coords.longitude;
+  getWeatherDataByLocation(latitude, longitude)
+    .then((data) => {
+      const city = `${data.name}, ${data.sys.country}`;
+      searchInput.value = city;
+      showWeatherData(city);
+    })
+    .catch((error) => {
+      console.error(error);
+      errorElement.innerHTML = "Erro ao obter localização";
+    });
+});
+
 //Essa função converte o dado(timezone) que vem da API para o formato "HH:mm:ss"
 function getTimezoneOffset(timezone) {
   const timezoneOffsetInHours = timezone / 3600;
